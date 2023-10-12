@@ -1,0 +1,48 @@
+main-profile-container{
+    margin: auto;
+    padding-top: 3rem;
+        padding-bottom: 3rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    
+    overflow: auto;
+    
+}
+.name-email{
+background: #d87d2e;
+padding-top: 4rem;
+padding-bottom: 8rem;
+}
+.name-square{background: white;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    font-size: 1.5rem;
+    color: #d87d2e;
+    border-radius: 8px;
+}
+li a:hover {
+    background-color: silver;
+  }
+
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }

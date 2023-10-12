@@ -1,0 +1,53 @@
+<header>
+  <nav>
+      <ul>
+          <li><a routerLinkActive="Myactivelinks" [routerLinkActiveOptions]="{exact:true}" routerLink="/"></a></li>
+          <li><a routerLinkActive="Myactivelinks" routerLink="/home">Home</a></li>
+          <li><a routerLinkActive="Myactivelinks" routerLink="/about">About Us</a></li>
+          <li><a routerLinkActive="Myactivelinks" routerLink="/contact">Contacts Us</a></li>
+          <li><a routerLinkActive="Myactivelinks" routerLink="/products">Products</a></li>
+          <li><a routerLinkActive="Myactivelinks" routerLink="/buy-products">Buy-products</a></li>
+
+      </ul>
+  </nav>
+</header>
+
+<router-outlet></router-outlet>
+<br><br>
+<app-exc-parent></app-exc-parent>
+<br><br>
+
+
+<br> <br>
+<div class="main-profile-container full-width" fxLayout="row" fxLayout.sm="column" fxLayout.xs="column"fxLayoutAlign="space-between center">
+    <div class="name-email full-width" fxFlex="50" fxLayout="column" fxLayoutAlign="space-between center">
+        <div class="name-square" >
+            <app-interpolation></app-interpolation>
+        </div>
+        <h2 style="padding-top: 4rem; color: white; font-size: 2rem; display: flex; padding-bottom: 1rem;"><app-propertybinding></app-propertybinding> </h2>
+        <p style="color: white; font-size: 1.5rem; display: flex;"><app-class-and-style-binding></app-class-and-style-binding></p>
+    </div>
+    <div class="profile-details" fxFlex="15" style="color: white;" >
+        <app-eventbinding></app-eventbinding>
+    
+         <app-templatereferencevariable></app-templatereferencevariable>
+    </div>
+    <app-two-way-data-binding></app-two-way-data-binding>
+</div>
+<br>
+<div >
+    <app-ngxbootstrapdatepicker> </app-ngxbootstrapdatepicker>
+  </div>
+  <div>
+    <app-ng-if></app-ng-if>
+  </div>
+  <div>
+    <app-ng-switch></app-ng-switch>
+  </div>
+  <div>
+    <app-ng-for></app-ng-for>
+  </div>
+  <div> 
+    <app-push-andslice> </app-push-andslice>
+  </div>
+
